@@ -63,6 +63,16 @@ namespace FormsComunicationV2.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _262700657_1047656675778399_3499398650083544630_n {
+            get {
+                object obj = ResourceManager.GetObject("262700657_1047656675778399_3499398650083544630_n", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap gosh3 {
             get {
                 object obj = ResourceManager.GetObject("gosh3", resourceCulture);

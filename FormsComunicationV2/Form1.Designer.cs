@@ -36,9 +36,11 @@
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(178, 121);
+            this.button1.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.button1.Image = global::FormsComunicationV2.Properties.Resources._262700657_1047656675778399_3499398650083544630_n;
+            this.button1.Location = new System.Drawing.Point(323, 164);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(154, 30);
+            this.button1.Size = new System.Drawing.Size(214, 45);
             this.button1.TabIndex = 0;
             this.button1.Text = "PREESS DE BUTTON";
             this.button1.UseVisualStyleBackColor = true;

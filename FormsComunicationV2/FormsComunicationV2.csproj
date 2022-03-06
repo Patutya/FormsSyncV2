@@ -101,5 +101,8 @@
   <ItemGroup>
     <None Include="Resources\gosh3.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\262700657_1047656675778399_3499398650083544630_n.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
