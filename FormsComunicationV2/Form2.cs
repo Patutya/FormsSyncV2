@@ -8,8 +8,8 @@ namespace FormsComunicationV2
         public event sendTxt sendtxt2to3;
         public string text
         {
-            get { return textBox1.Text; }
-            set { textBox1.Text = value; }
+            get { return label1.Text; }
+            set { label1.Text = value; }
         }
         public Form2()
         {
@@ -18,7 +18,8 @@ namespace FormsComunicationV2
 
         private void button1_Click(object sender, EventArgs e)
         {
-            sendtxt2to3.Invoke(textBox1.Text);
+            sendtxt2to3?.Invoke(textBox1.Text);
+            text +="1:\t"+ textBox1.Text+ "\n";
         }
     }
 }

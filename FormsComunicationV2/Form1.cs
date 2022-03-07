@@ -22,11 +22,11 @@ namespace FormsComunicationV2
         }
         public void setlebel3(string a)
         {
-            form3.text = a;
+            form3.text +="1:" +  a + "\n";
         }
         public void setlebel2(string a)
-        {
-            form2.text = a;
+        { 
+            form2.text +="2:" + a + "\n";
         }
     }
 }
